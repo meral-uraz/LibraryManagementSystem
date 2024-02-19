@@ -10,7 +10,7 @@ This is a simple Library Management System implemented in Python.
 
 ## Usage
 
-1. Run the program by executing the library_management.py file.
+1. Run the program by executing the LibraryManagementSystem.py file.
 2. Follow the on-screen menu to perform desired actions:
    - To list books, enter 1.
    - To add a book, enter 2 and follow the prompts.
