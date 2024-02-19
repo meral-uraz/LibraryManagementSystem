@@ -1,13 +1,6 @@
 # Library Management System
 This is a simple Library Management System implemented in Python.
 
-## Features
-
-- List Books: Displays the list of books available in the library.
-- Add Book: Allows the user to add a new book to the library.
-- Remove Book: Allows the user to remove a book from the library.
-- Exit: Exits the program.
-
 ## Usage
 
 1. Run the program by executing the LibraryManagementSystem.py file.
@@ -22,6 +15,6 @@ This is a simple Library Management System implemented in Python.
 
 - The program stores book information in a file named books.txt.
 - Each line in the books.txt file represents a single book, with the following format:
-  book_title,book_author,release_date,num_pages
+  book_title,book_author,release_date,pages_num
 - Make sure to properly enter the information when adding or removing books.
 - The program ensures that invalid choices are handled gracefully.

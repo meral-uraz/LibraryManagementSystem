@@ -1,11 +1,14 @@
 class Library:
     def __init__(self):
+        # Open the file in append mode to keep existing data and append new data.
         self.file = open("books.txt", "a+")
 
     def __del__(self):
+        # Close the file when the Library object is deleted.
         self.file.close()
 
     def list_books(self):
+        # Seek to the beginning of the file to read from the start.
         self.file.seek(0)
         lines = self.file.read().splitlines()
         
@@ -50,7 +53,7 @@ while True:
     print("1) List Books")
     print("2) Add Book")
     print("3) Remove Book")
-    print("4) Exit")
+    print("4) Quit")
     choice = input("Enter your choice (1/2/3/4): ")
 
     if choice == '1':
